@@ -22,7 +22,7 @@ body {
   width: 80%;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 50px;
+  padding: 50px 50px 20px;
   background-color: #fff;
   box-shadow: 0 0 15px #CACACA;
 }
@@ -109,11 +109,30 @@ main {
 
 /* FOOTER */
 
-footer nav {
+footer {
+  padding: 10px;
+  margin: 30px auto;
+  background-color: #e1e1e1;
+}
+
+nav.footer-nav {
   display: inline-block;
-  float: left;
+}
+
+nav.footer-nav>a {
+  display: inline-block;
+  padding: 5px 41px;
+  height: 25px;
+  box-sizing: border-box;
+  color: #000;
+  text-decoration: none;
+}
+
+nav.footer-nav>a:hover {
+  text-decoration: underline;
 }
 
 .copywrite {
   float: right;
+  padding: 5px;
 }
