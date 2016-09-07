@@ -1,3 +1,8 @@
+/* for debugging */
+* {
+  /*border: 1px solid red; */
+}
+
 /* GENERAL STYLES */
 
 body {
@@ -25,4 +30,22 @@ body {
 
 /* MAIN AREA */
 
+.itemPage nav {
+  display: inline-block;
+  float: left;
+}
+
+nav.sidebarNav>a {
+  display: block;
+}
+
 /* FOOTER */
+
+footer nav {
+  display: inline-block;
+  float: left;
+}
+
+.copywrite {
+  float: right;
+}
