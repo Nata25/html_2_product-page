@@ -10,6 +10,7 @@ body {
   padding: 0;
   background-color: #f5f2f0;
   font-family: 'Open Sans', sans-serif;
+  font-size: .8em;
 }
 
 .offset {  /* class for text meant only for accessibility devices */
@@ -28,14 +29,39 @@ body {
 
 /* HEADER */
 
+nav {
+  padding: 0;
+}
+
+nav.top-nav {
+  margin: 30px auto;
+  background-color: #4f4f4f;
+  text-shadow: 1px 1px black;
+}
+
+nav.top-nav>a {
+  display: inline-block;
+  padding: 10px 40px;
+  border: 1px solid #4f4f4f;
+  color: #C7C7C7;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.top-nav > a:hover {
+  border-left: 1px solid #717171;
+  border-right: 1px solid #717171;
+  background-color: #373737;
+}
+
 /* MAIN AREA */
 
-.itemPage nav {
+.item-page nav {
   display: inline-block;
   float: left;
 }
 
-nav.sidebarNav>a {
+nav.sidebar-nav>a {
   display: block;
 }
 
