@@ -1,5 +1,26 @@
 /* GENERAL STYLES */
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f2f0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.offset {  /* class for text meant only for accessibility devices */
+  position: absolute;
+  top: -1000px;
+}
+
+.wrapper {
+  width: 80%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 15px #CACACA;
+}
+
 /* HEADER */
 
 /* MAIN AREA */
