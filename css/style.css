@@ -1,6 +1,6 @@
 /* for debugging */
 * {
-  /*border: 1px solid red; */
+  /*border: 1px solid red;*/
 }
 
 /* GENERAL STYLES */
@@ -62,13 +62,42 @@ nav.top-nav>a {
 
 /* MAIN AREA */
 
+/* Sidebar menu */
+
 .item-page nav {
   display: inline-block;
-  float: left;
+  width: 20%;
+  vertical-align: top;
+  margin: 30px;
 }
 
 nav.sidebar-nav>a {
   display: block;
+  box-sizing: border-box;
+  height: 40px;
+  border-top: 1px solid #d6d5d5;
+  border-left: 1px solid #d6d5d5;
+  border-right: 1px solid #d6d5d5;
+  padding: 10px 20px;
+  color: #909090;
+  text-decoration: none;
+}
+
+nav.sidebar-nav>a:last-child {
+  border-bottom: 1px solid #d6d5d5;
+}
+
+nav.sidebar-nav>a:hover {
+  background-color: #f9f9f9;
+  color: #4C4C4C;
+  padding-left: 30px;
+}
+
+/* Item area */
+
+main {
+  display: inline-block;
+  width: 70%;
 }
 
 /* FOOTER */
