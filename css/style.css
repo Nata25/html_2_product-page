@@ -136,3 +136,14 @@ nav.footer-nav>a:hover {
   float: right;
   padding: 5px;
 }
+
+/* Simple media query for mobile screen */
+
+@media screen and (max-width: 1167px) {
+  nav.sidebar-nav,
+  main {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+}
